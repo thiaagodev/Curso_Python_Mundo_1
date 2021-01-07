@@ -1,3 +1,10 @@
 x = input('Digite qualquer coisa: ')
 
-print('O tipo primitivo de "{}" é {}, é numérico: {}, é alfabético: {}, é decimal: {}, é alphanumérico: {}'.format(x, type(x), x.isnumeric(), x.isalpha(), x.isdecimal(), x.isalnum()))
+print('O tipo primitivo de "{}" é {}'.format(x, type(x)))
+print('Só tem espaços? {}'.format(x.isspace()))
+print('É um número? {}'.format(x.isnumeric()))
+print('É alfabético? {}'.format(x.isalpha()))
+print('É alfanumérico? {}'.format(x.isalnum()))
+print('Está em maiúsculas? {}'.format(x.isupper()))
+print('Está em minúsculas? {}'.format(x.islower()))
+print('Está capitalizada? {}'.format(x.istitle()))
