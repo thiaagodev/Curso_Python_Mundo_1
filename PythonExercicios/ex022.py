@@ -1,4 +1,4 @@
-nome = input('Digite seu nome completo: ')
+nome = input('Digite seu nome completo: ').strip()
 
 print(nome.upper())
 print(nome.lower())
